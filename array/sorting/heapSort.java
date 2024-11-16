@@ -60,7 +60,7 @@ class heapSort
          {
                    int temp = array[l];
                    array[l] = array[largest];
-                   array[largest] = array[l];
+                   array[largest] = temp;
                    heapify(array,k,largest);
 
          }
